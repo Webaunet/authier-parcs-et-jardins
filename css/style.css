@@ -44,7 +44,7 @@ h1{font-size:clamp(2.3rem,6vw,4.4rem)}h2{font-size:clamp(1.8rem,4vw,3rem)}h3{fon
 .lead{font-size:1.15rem;color:var(--mute);max-width:60ch;margin-top:16px}
 .contour{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' fill='none' stroke='%23ffffff' stroke-opacity='.09' stroke-width='1.6'%3E%3Cpath d='M-20 300C80 240 140 330 250 280S430 200 620 250'/%3E%3Cpath d='M-20 260C90 200 150 290 255 240S430 160 620 210'/%3E%3Cpath d='M-20 220C100 160 160 250 260 200S430 120 620 170'/%3E%3Cpath d='M-20 180C110 120 170 210 265 160S430 80 620 130'/%3E%3Cpath d='M-20 140C120 80 180 170 270 120S430 40 620 90'/%3E%3C/svg%3E");background-size:600px 400px}
 /* hero */
-.hero{background:var(--forest);color:#fff;min-height:calc(100svh - 72px);display:flex;align-items:center;padding:clamp(48px,8vw,90px) 0 clamp(90px,12vw,150px);overflow:hidden}
+.hero{position:relative;background:var(--forest);color:#fff;min-height:calc(100svh - 72px);display:flex;align-items:center;padding:clamp(48px,8vw,90px) 0 clamp(90px,12vw,150px);overflow:hidden}
 .hero .wrap{display:grid;gap:40px;align-items:center}
 .hero p.lead{color:#e1ead6}
 .hero h1 em{font-style:italic;color:#f0c79d}
