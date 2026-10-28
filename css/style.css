@@ -26,7 +26,7 @@ h1{font-size:clamp(2.3rem,6vw,4.4rem)}h2{font-size:clamp(1.8rem,4vw,3rem)}h3{fon
 .burger[aria-expanded=true] span{background:transparent}.burger[aria-expanded=true] span::before{top:0;transform:rotate(45deg)}.burger[aria-expanded=true] span::after{top:0;transform:rotate(-45deg)}
 .nav.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--stone);padding:12px 16px 20px;border-bottom:1px solid rgba(29,58,42,.15);box-shadow:var(--sh)}
 .nav.open a{font-size:1.1rem}
-@media(min-width:981px){.nav{display:flex}.burger{display:none}.hd .wrap{gap:18px}}
+@media(min-width:980.5px){.nav{display:flex}.burger{display:none}.hd .wrap{gap:18px}}
 @media(max-width:480px){.call span{display:none}.call{width:46px;padding:0;justify-content:center}.logo small{display:none}}
 /* buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 26px;border-radius:99px;font-weight:700;text-decoration:none;border:2px solid transparent;font-size:1rem;cursor:pointer;font-family:var(--sans)}
@@ -78,8 +78,8 @@ h1{font-size:clamp(2.3rem,6vw,4.4rem)}h2{font-size:clamp(1.8rem,4vw,3rem)}h3{fon
 .band{text-align:center}.band .lead{margin-inline:auto;color:#e1ead6}
 .band .cta{justify-content:center}.band h2{max-width:20ch;margin-inline:auto}
 /* footer */
-.ft{background:#13271c;color:#cfdcc9;padding:34px 0 28px;font-size:1rem}
-.ft .wrap{display:grid;gap:18px}.ft a{text-decoration:none}.ft a:hover{text-decoration:underline}
+.ft{background:#13271c;color:#cfdcc9;padding:22px 0 14px;font-size:1rem}
+.ft .wrap{display:grid;gap:4px 18px}.ft a{text-decoration:none}.ft a:hover{text-decoration:underline}
 .ft .links{display:flex;flex-wrap:wrap;gap:6px 18px}.ft .wrap>div>a{min-height:44px;display:inline-flex;align-items:center}.ft .links a{min-height:44px;display:inline-flex;align-items:center}
 .ft b{color:#fff;font-family:var(--serif);font-size:1.15rem}
 @media(min-width:800px){.ft .wrap{grid-template-columns:1.2fr 1fr 1fr;align-items:start}}
@@ -119,3 +119,4 @@ h1{font-size:clamp(2.3rem,6vw,4.4rem)}h2{font-size:clamp(1.8rem,4vw,3rem)}h3{fon
 @media(min-width:700px){.res .acts{grid-template-columns:repeat(3,1fr)}}
 .ok{font-weight:700;color:var(--forest)}
 @media(min-width:900px){.row{margin-top:30px}.row img{aspect-ratio:16/10}.sec.tall .row:first-of-type{margin-top:34px}}
+@media(max-width:799px){.ft p{line-height:1.4}.ft .links{gap:0 14px}}
